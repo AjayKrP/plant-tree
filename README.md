@@ -1,6 +1,6 @@
 # Plant Tree 
 
-It's an Android application where you can see different plants, there details and prices.
+It's an Android application where you can see different plants, their details, and prices.
 
 #### Design i followed
 ![App Design](images/design.png)
