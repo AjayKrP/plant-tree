@@ -135,9 +135,9 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
               ],
             ),
           ),
-          SizedBox(height: 100.0,),
+          SizedBox(height: 10.0,),
           Container(
-            height: MediaQuery.of(context).size.height - 200.0,
+            height: 350.0,
             child: TabBarView(
               controller: _tabController,
               children: [
@@ -148,6 +148,7 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
               ],
             ),
           ),
+          SizedBox(height: 10.0,),
           Padding(
             padding: EdgeInsets.only(left: 10.0, right: 10.0),
             child: Row(
@@ -174,7 +175,6 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
           Container(
             width: 200.0,
             height: 250.0,
-
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: [
